@@ -1,0 +1,21 @@
+.loginpage {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.loginpage label{
+    margin:10px 0 0 10px;
+}
+
+.loginpage button{
+    display: block;
+    margin:20px 72% 0 auto;
+    padding: 5px 20px;
+    background-color:aqua;
+    cursor: pointer;
+}
+
+.loginpage input {
+    margin-top: 10px;
+}

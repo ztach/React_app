@@ -1,0 +1,40 @@
+div.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 99%;
+  margin:0 auto;
+  background-color: rgb(246, 245, 245);
+}
+
+header{
+  flex-basis: 30vh;
+  background-color: rgb(245, 243, 243);
+  color:black;
+}
+
+main{
+  display: flex;
+  flex-grow: 1;
+  
+  color:black;
+  padding: 10px 0;
+
+}
+
+aside{
+  min-width: 20vw;
+  background-color: rgb(220, 245, 245);
+  padding:10px;
+}
+
+section{
+  flex-grow: 1;
+  background-color: rgb(252, 245, 237);
+}
+
+footer{
+  background-color:slategray ;
+  color:yellow;
+  padding:20px;
+}

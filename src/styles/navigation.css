@@ -1,0 +1,65 @@
+  .navigation{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .navul{
+    list-style: none;
+    }
+  
+  .navli{
+    flex-grow: 1;
+    margin-top:15px;
+  }
+  
+  .navigation a{
+    display: block;
+    text-align: left;
+    color:white;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-left: 10px solid  darkred;
+    background-color: darkred;
+  }
+  
+  .navigation a:hover{
+    color:yellow;
+    animation: App-logo-spin infinite 1s linear;
+  }
+  
+  section{
+    padding-top:40px;
+  }
+  
+  .active{
+    
+  }
+
+  .navigation .home_selected{
+    border-left-color: yellow;
+  }
+  
+  .navigation .products_selected{
+    border-left-color: red;
+  
+  }
+  
+  .navigation .contact_selected {
+    border-left-color: green;
+  }
+
+  .navigation .admin_selected {
+    border-left-color: blue;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(10px);
+    }
+  }
+  

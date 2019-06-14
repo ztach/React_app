@@ -1,0 +1,20 @@
+
+.products {
+    font-size: 20px;
+}
+.products ul {
+    list-style:square;
+}
+
+.products li {
+    margin: 20px 0;
+}
+
+.products a {
+    text-decoration: none;
+}
+
+.products a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
